@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "697146342300",
+    "project_id": "thewalker-6b5d0",
+    "storage_bucket": "thewalker-6b5d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697146342300:android:7f52eb66c39799b628a659",
+        "android_client_info": {
+          "package_name": "app.thewalker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697146342300-5t631eartkab5dqmpebpakl1n7nd605h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.thewalker",
+            "certificate_hash": "012dc20f8bd3965081af02a1bd471ee12c89c584"
+          }
+        },
+        {
+          "client_id": "697146342300-icful2nc597te4jcbkouo8kaumv0qthp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3ndGZdAu1sgSJL-Ffg7zW1KNJrreaBJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697146342300-icful2nc597te4jcbkouo8kaumv0qthp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

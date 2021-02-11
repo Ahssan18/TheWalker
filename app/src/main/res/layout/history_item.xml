@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/history_item_bg">
+    <RelativeLayout
+        android:id="@+id/updated_on_history_item_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_updated_on"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp">
+        <TextView
+            android:id="@+id/history_updated_on_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13-12-2020"
+            android:textSize="12sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/steps_ic_history"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_steps"
+        android:layout_below="@id/updated_on_history_item_lay"
+        android:layout_marginLeft="16dp"/>
+    <TextView
+        android:id="@+id/history_steps_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/steps_ic_history"
+        android:text="12,222 Steps"
+        android:layout_below="@id/updated_on_history_item_lay"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:layout_below="@id/updated_on_history_item_lay">
+        <ImageView
+            android:id="@+id/history_coin_ic"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="8dp"
+
+            android:src="@drawable/ic_coin"/>
+        <TextView
+            android:id="@+id/history_coin_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.00"
+            android:layout_toRightOf="@id/history_coin_ic"
+            android:textColor="#E4B54B"
+            android:layout_margin="8dp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

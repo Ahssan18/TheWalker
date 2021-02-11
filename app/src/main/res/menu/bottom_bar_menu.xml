@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:cnb_iconColor="#07FCF1"/>
+    <item
+        android:id="@+id/activity_menu_item"
+        android:icon="@drawable/ic_steps"
+        android:title="ABC"
+        app:cnb_iconColor="#07FCF1"/>
+    <item
+        android:id="@+id/rewards_menu_item"
+        android:icon="@drawable/ic_group_rewards"
+        android:title="Activity"
+        app:cnb_iconColor="#07FCF1"
+        />
+    <item
+
+        android:id="@+id/challenges_menu_item"
+        android:icon="@drawable/ic_challanges"
+        android:title="Challanges"
+        app:cnb_iconColor="#07FCF1"
+
+        />
+    <item
+        android:id="@+id/profile_menu_item"
+        android:icon="@drawable/ic_profile"
+        android:title="Settings"
+        app:cnb_iconColor="#07FCF1" />
+</menu>
